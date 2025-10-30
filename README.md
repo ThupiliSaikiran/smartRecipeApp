@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+🧑‍🍳 Smart Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Smart Recipe App helps users discover delicious recipes based on their ingredients, mood, and available cooking time.
+It uses the TheMealDB API to fetch real recipes with full details like ingredients, instructions, and YouTube links.
 
-## Available Scripts
+🌟 Features
 
-In the project directory, you can run:
+✅ Search recipes by ingredients (e.g., chicken, tomato, cheese)
+✅ Filter recipes based on mood (Happy, Sad, Romantic, etc.)
+✅ Filter by time (Under 15, 30, 45, or 60 mins)
+✅ View full recipe details in a popup modal
+✅ Watch cooking videos directly on YouTube
+✅ Save your favorite recipes
+✅ Fully responsive and works on all devices
+✅ Built using React + TailwindCSS
 
-### `npm start`
+⚙️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Frontend: React.js (with React Router)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Styling: Tailwind CSS
 
-### `npm test`
+API: TheMealDB
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Hosting: Vercel
 
-### `npm run build`
+🚀 How to Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/your-username/smart-recipe-app.git
+cd smart-recipe-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open your browser and go to
+👉 http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 API Used
 
-### Code Splitting
+We used TheMealDB API for getting recipes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Random recipes:
+https://www.themealdb.com/api/json/v1/1/random.php
 
-### Analyzing the Bundle Size
+Search by ingredient:
+https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Recipe details:
+https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772
 
-### Making a Progressive Web App
+💡 Project Flow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+User enters ingredients, mood, and time.
 
-### Advanced Configuration
+App fetches recipe data using TheMealDB.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Results are filtered according to mood and time logic.
 
-### Deployment
+Recipes are displayed with beautiful cards and modals.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If no match is found, related or random recipes are shown.
 
-### `npm run build` fails to minify
+🤖 Working with AI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed with the help of ChatGPT (AI assistant).
+The AI helped in:
+
+Writing and debugging JavaScript and React code
+
+Building logic for filtering recipes by mood and time
+
+Designing UI components with Tailwind CSS
+
+Writing this README file
+
+Debugging deployment issues in Vercel
+
+This demonstrates how AI can assist in building full web projects by guiding step-by-step, debugging errors, and improving user experience.
+
+📸 Preview
+
+c:\Users\91799\OneDrive\Pictures\Screenshots\Screenshot 2025-10-30 153015.png
+
+🔗 Live Demo
+
+👉 Click Here to View on Vercel
+
+🧑‍💻 Developer
+
+Name: Sai Kiran
+Tech Stack: HTML | CSS | JavaScript | React | Django | MySQL | TailwindCSS
+Year: B.Tech 2024 Graduate
+Goal: Python Full Stack Developer
