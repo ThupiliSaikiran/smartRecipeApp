@@ -11,7 +11,7 @@ const RecipeModel = ({meal,onClose}) => {
   }
   return (
     
-    <div className='fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-center z-50'>
+    <div className='fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-center z-[1000]'>
 
       <div className='bg-white w-[90%] max-w-2xl rounded-2xl overflow-hidden shadow-2xl relative animate-fadeIn'>
         <button
